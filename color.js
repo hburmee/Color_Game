@@ -74,7 +74,7 @@ for(var i = 0; i < squares.length; i++){
 			changeColors(clickedColor);
 			h1.style.backgroundColor = clickedColor;
 		} else {
-			this.style.backgroundColor = "#232323";
+			this.style.backgroundColor = "steelblue";
 			messageDisplay.textContent = "Try Again";
 		}
 
@@ -97,13 +97,12 @@ function pickColor(){
 }
 
 function generateRandomColors(num){
-	//make an array
 	var arr = []
 	//add num random colors to array
 	for(var i = 0; i < num; i++){
 		arr.push(randomColor())
 	}
-	//return that array
+	
 		return arr;
 }
 
