@@ -1,5 +1,5 @@
 # Color_Game
-Color Game using JS
+Color Game using JS(Guess the color that matches the RGB code)
 
 Download/Pull the files
 
